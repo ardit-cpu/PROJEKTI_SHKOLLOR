@@ -1,0 +1,44 @@
+<html>
+    <div class="go">
+        <div class="going"></div>
+    </div>
+    <h1>𝙅𝙪 𝙡𝙪𝙩𝙚𝙢 𝙥𝙧𝙞𝙨𝙣𝙞 𝙙𝙚𝙧𝙞 𝙨𝙖 𝙛𝙖𝙦𝙟𝙖 𝙩𝙚 𝙣𝙜𝙖𝙧𝙠𝙤𝙝𝙚𝙩</h1>
+</html>
+
+<style>
+    html{
+        background: linear-gradient(to left top, #3499ff, #3a3985);
+
+    }
+    .go{
+        width: 19cm;
+        position: absolute;
+        left: 7cm;
+        top: 10cm;
+        height: 40px;
+        background: #666666;
+        border-radius: 30px;
+    }
+    .going{
+        background: red;
+        width: 0px;
+        height: 40px;
+        animation: 4s go;
+        animation-fill-mode: both;
+    }
+    @keyframes go{
+        from{width: 0px; background: red; border-radius: 100%;}
+        to{width: 19cm; background: lime; border-radius: 30px;}
+    }
+    h1{
+        position: absolute;
+        left: 6.8cm;
+        top: 5cm;
+    }
+</style>
+
+<script>
+setTimeout(function(){
+    window.location = "hyrja.html"
+},5000)
+</script>
