@@ -1,0 +1,2 @@
+# PROJEKTI_SHKOLLOR
+for school
