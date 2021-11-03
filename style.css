@@ -27,11 +27,11 @@ form{
     width: 10cm;
     height: 15cm;
     background: linear-gradient(to left,#3499ff, #3a3985);
-    position: relative;
-    left: 20cm;
     border-radius: 30px;
-    top: 5cm;
     box-shadow:  10px 10px 10px 2px black;
+    float: right;
+    margin-top: 5cm;
+    margin-right: 2cm;
 }
 
 form input{
